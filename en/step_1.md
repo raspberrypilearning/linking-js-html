@@ -1,59 +1,44 @@
-## Introduction
+To link JavaScript files to an HTML document, you can use the `<script>` tag.
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+You can either place the `<script>` element inside the `<head>` element.
 
-### What you will make
-
---- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
+language: html
+filename: index.html
+line_numbers: true
 ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>External Script Example</title>
+      <!-- Linking external JavaScript file -->
+      <script src="script.js"></script>
+    </head>
 
---- /collapse ---
+--- /code ---
 
---- collapse ---
+--- /task ---
+
+Or you can place the `<script>` element just before the closing `</body>` tag. 
+
+This method is best if you need all the HTML content on the page to load before running the JavaScript functions.
+
+--- code ---
 ---
-title: Additional information for educators
+language: html
+filename: index.html
+line_numbers: true
 ---
 
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
+    <body>
+      <!-- HTML content -->
+      <h1>This is the body of the document</h1>
+      <!-- Linking external JavaScript file within the body -->
+      <script src="script.js"></script>
+    </body>
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
+--- /code ---
 
---- /collapse ---
+--- /task ---
