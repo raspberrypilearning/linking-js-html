@@ -1,6 +1,6 @@
-To link JavaScript files to an HTML document, you add a `<script>` element with a `src` attribute set to the name of the JavaScript file.
+Pour lier des fichiers JavaScript à un document HTML, ajoute un élément `<script>` avec un attribut `src` défini sur le nom du fichier JavaScript.
 
-You should place the `<script>` element just before the closing `</body>` tag, as you may need all the HTML content on the page to load before running the JavaScript functions.
+Tu dois placer l'élément `<script>` juste avant la balise de fermeture `</body>`, car il peut être nécessaire que tout le contenu HTML de la page soit chargé avant l'exécution des fonctions JavaScript.
 
 ## --- code ---
 
