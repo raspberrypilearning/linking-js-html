@@ -1,10 +1,10 @@
-title: Link JavaScript files to HTML page
+title: JavaScript-bestanden koppelen aan een HTML-pagina
 hero_image: images/banner.png
-description: Link JavaScript files to HTML page
+description: JavaScript-bestanden koppelen aan een HTML-pagina
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-05-19"
 steps:
   - 
-    title: Link JavaScript files
+    title: JavaScript-bestanden koppelen
