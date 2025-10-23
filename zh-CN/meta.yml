@@ -1,0 +1,10 @@
+---
+title: 将 JavaScript 文件链接到 HTML 页面
+hero_image: images/banner.png
+description: 将 JavaScript 文件链接到 HTML 页面
+version: 4
+listed: false
+copyedit: false
+last_tested: "2022-05-19"
+steps:
+  - title: 链接 JavaScript 文件
